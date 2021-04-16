@@ -36,7 +36,7 @@ No cookie is set before the user has made choice
 # Integration :
 
 
-##1/ edit config in ezcc/ezcc.js
+## 1/ edit config in ezcc/ezcc.js
 
 	var ezcc_config = {
 		'lang':'en',  // en/fr
@@ -48,7 +48,7 @@ No cookie is set before the user has made choice
 		'legal_terms_url' : 'legal.html' /// link to your legal terms page
 	};
 
-##2/ import libs
+## 2/ import libs
 
 	<!---- import ezcc css ----->
 	<link rel="stylesheet" href="ezcc/css.css" />
@@ -60,7 +60,7 @@ No cookie is set before the user has made choice
  	<script src="ezcc/ezcc.js"></script>
   
   
-##3/ Add ezcc_handle_analytics() to the Google analytics script :
+## 3/ Add ezcc_handle_analytics() to the Google analytics script :
 
 	<!-- Google Analytic tag -->
 
@@ -76,11 +76,11 @@ No cookie is set before the user has made choice
 
 	</script>
 
-##4/ That's it. 
+## 4/ That's it. 
 
 Depending on user's choice: 
 
-- Adsense will display personalized/non-personalized
+- Adsense will display personalized/non-personalized (using this method : https://support.google.com/adsense/answer/9042142?hl=en)
  
 - Analytics will load or not 
 
