@@ -1,4 +1,4 @@
-
+//https://github.com/antoinebaron-io/ezcc
 
 var ezcc_config = {
 	'lang':'en',
