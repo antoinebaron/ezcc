@@ -13,6 +13,8 @@ It currently works for Google Analytics and Google adsense
 
 No cookie is set before the user has made choice
 
+*Even though this script is functional (at the time of writing), it is provided "as is" and without warranty of any kind
+
 # Details :
 
 ✅ Lang EN/FR
