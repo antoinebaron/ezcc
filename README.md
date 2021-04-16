@@ -84,7 +84,9 @@ Depending on user's choice:
  
 - Analytics will load or not 
 
+# Testing :
 
+Use your browser Developer Tools to check the cookies before and after making the different choices
   
   
   
