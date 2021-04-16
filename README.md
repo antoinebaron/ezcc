@@ -78,8 +78,10 @@ No cookie is set before the user has made choice
 4/ That's it. 
 
 Depending on user's choice: 
-	- Adsense will display personalized/non-personalized
-	- Analytics will load or not 
+
+- Adsense will display personalized/non-personalized
+ 
+- Analytics will load or not 
 
 
   
