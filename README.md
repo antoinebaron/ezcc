@@ -75,7 +75,12 @@ No cookie is set before the user has made choice
 
 	</script>
 
-4/ That's it. Adsense will display personalized/non-personalized depending on the choice of the user 
+4/ That's it. 
+
+Depending on user's choice: 
+	- Adsense will display personalized/non-personalized
+	- Analytics will load or not 
+
 
   
   
