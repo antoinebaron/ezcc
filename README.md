@@ -15,7 +15,11 @@ No cookie is set before the user has made choice
 # details :
 
 ✅ Lang EN/FR
+
 ✅ Responsive
+
 ✅ GG Analytics
+
 ✅ GG Adsense
+
 ✅ Pause cookies before user made a choice
