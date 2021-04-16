@@ -28,7 +28,20 @@ No cookie is set before the user has made choice
 
 # Integration :
 
-1/ import libs
+
+1/ edit config in ezcc/ezcc.js
+
+	var ezcc_config = {
+		'lang':'en',  // en/fr
+		'adsense': true, // whether you use adsense or not
+		'analytics': true, // whether you use analytics or not
+		'wait_until_displayed' : 400, // in milisecond
+		'img_cookie_header' : true, // display image of cookie true/false
+		'id_link_call_modal' : 'link_call_cookie_choice', // add this id to any link in your page to call the choices modal
+		'legal_terms_url' : 'legal.html' /// link to your legal terms page
+	};
+
+2/ import libs
 
 	<!---- import ezcc css ----->
 	<link rel="stylesheet" href="ezcc/css.css" />
@@ -40,7 +53,7 @@ No cookie is set before the user has made choice
  	<script src="ezcc/ezcc.js"></script>
   
   
-2/ Google analytics :
+3/ Add ezcc_handle_analytics() to the Google analytics script :
 
 	<!-- Google Analytic tag -->
 
@@ -50,14 +63,14 @@ No cookie is set before the user has made choice
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 
-	ezcc_handle_analytics(); #/* !!!!!! ADD this here !!!!!! */
+	ezcc_handle_analytics(); /* !!!!!! ADD this here !!!!!! */
 
 	gtag('js', new Date());
 	gtag('config', 'G-XXXXXXXXXX');
 
 	</script>
 
-  
+4/ That's it. Adsense will display personalized/non-personalized depending on the choice of the user 
 
   
   
