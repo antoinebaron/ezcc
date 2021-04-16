@@ -4,12 +4,13 @@ Ezcc is a script designed to get cookie consent from user on first time visiting
 
 It store the user choices in a cookie.
 
-choices are : 
-  - no cookie at all
-  - all cookies
-  - choose from the list
+Choices are : 
+  - No cookie at all
+  - Accept all cookies
+  - Choose from the list
 
 It currently works for Google Analytics and Google adsense
 No cookie is set before the user has made choice
 
+# advantages :
 
