@@ -26,6 +26,12 @@ No cookie is set before the user has made choice
 
 ✅ Easy integration 
 
+
+![Capture du 2021-04-16 13-29-07](https://user-images.githubusercontent.com/72351273/115018195-de41f380-9eb7-11eb-9122-e2bb3ff5fecf.png)
+
+![Capture du 2021-04-16 13-29-41](https://user-images.githubusercontent.com/72351273/115018207-e13ce400-9eb7-11eb-98ab-a0aa68dbf9c6.png)
+
+
 # Integration :
 
 
@@ -56,7 +62,6 @@ No cookie is set before the user has made choice
 3/ Add ezcc_handle_analytics() to the Google analytics script :
 
 	<!-- Google Analytic tag -->
-
 
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 	<script>
