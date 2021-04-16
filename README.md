@@ -38,7 +38,7 @@ No cookie is set before the user has made choice
 # Integration :
 
 
-## 1/ edit config in ezcc/ezcc.js
+## 1/ Edit config in ezcc/ezcc.js
 
 	var ezcc_config = {
 		'lang':'en',  // en/fr
@@ -50,7 +50,7 @@ No cookie is set before the user has made choice
 		'legal_terms_url' : 'legal.html' /// link to your legal terms page
 	};
 
-## 2/ import libs
+## 2/ Import libs
 
 	<!---- import ezcc css ----->
 	<link rel="stylesheet" href="ezcc/css.css" />
