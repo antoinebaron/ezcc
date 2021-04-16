@@ -12,7 +12,7 @@ Choices are :
 It currently works for Google Analytics and Google adsense
 No cookie is set before the user has made choice
 
-# details :
+# Details :
 
 ✅ Lang EN/FR
 
@@ -23,3 +23,42 @@ No cookie is set before the user has made choice
 ✅ GG Adsense
 
 ✅ Pause cookies before user made a choice
+
+✅ Easy integration 
+
+# Integration :
+
+1/ import libs
+
+	<!---- import ezcc css ----->
+	<link rel="stylesheet" href="ezcc/css.css" />
+
+	<!---- import jquery ----->
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+ 	<!---- import ezcc js script ----->
+ 	<script src="ezcc/ezcc.js"></script>
+  
+  
+2/ Google analytics :
+
+	<!-- Google Analytic tag -->
+
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+
+	ezcc_handle_analytics(); #/* !!!!!! ADD this here !!!!!! */
+
+	gtag('js', new Date());
+	gtag('config', 'G-XXXXXXXXXX');
+
+	</script>
+
+  
+
+  
+  
+  
