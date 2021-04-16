@@ -1,7 +1,9 @@
 # ezcc : Easy Cookie Consent JS for rgpd compliance
 
 Ezcc is a script designed to get cookie consent from user on first time visiting the website.
+
 It store the user choices in a cookie.
+
 choices are : 
   - no cookie at all
   - all cookies
