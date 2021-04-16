@@ -27,14 +27,14 @@ if(ezcc_config.adsense==true){
 			(adsbygoogle = window.adsbygoogle || []).pauseAdRequests = 0;
 			(adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
 
-			//console.log('cookie exist but adsense not alowed');
+			//console.log('cookie exist but adsense not allowed');
 
 		}else{
 
 			(adsbygoogle = window.adsbygoogle || []).pauseAdRequests = 0;
 			(adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 0;
 
-			//console.log('cookie exist adsense alowed');
+			//console.log('cookie exist adsense allowed');
 
 		}
 
@@ -103,14 +103,14 @@ $(document).ready(function(){
 				(adsbygoogle = window.adsbygoogle || []).pauseAdRequests = 0;
 				(adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
 
-				//console.log('adsense not alowed');
+				//console.log('adsense not allowed');
 
 			}else{ ///adsense allowed
 
 				(adsbygoogle = window.adsbygoogle || []).pauseAdRequests = 0;
 				(adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 0;
 
-				//console.log('adsense alowed');
+				//console.log('adsense allowed');
 			}
 		}
 
@@ -121,7 +121,7 @@ $(document).ready(function(){
 			if(!ezcc_cookie.includes("[analytics]")){
 
 				///we leave default previously set with ezcc_handle_analytics()
-				///console.log('analytics not alowed');
+				///console.log('analytics not allowed');
 
 			}else{ ///analytics allowed
 
@@ -131,7 +131,7 @@ $(document).ready(function(){
 	  				'analytics_storage':'granted'
 				});
 
-				//console.log('analytics  alowed');
+				//console.log('analytics allowed');
 
 			}
 		}
@@ -331,7 +331,7 @@ function ezcc_handle_analytics(){
 	var ezcc_cookie = ezcc_getCookie('ezcc');
 	if(ezcc_cookie!=null){
 
-		///if cookie exist but analytics not alowed
+		///if cookie exist but analytics not allowed
 		if(!ezcc_cookie.includes("[analytics]")){
 
 			
@@ -340,12 +340,12 @@ function ezcc_handle_analytics(){
 				'analytics_storage': 'denied'
 			});
 
-			//console.log('cookie exist but analytics not alowed');
+			//console.log('cookie exist but analytics not allowed');
 
 		}else{
 
 			/// no update here, analytics can run
-			//console.log('cookie exist analytics  alowed');
+			//console.log('cookie exist analytics allowed');
 
 		}
 
