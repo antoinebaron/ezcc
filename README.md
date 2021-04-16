@@ -12,5 +12,10 @@ Choices are :
 It currently works for Google Analytics and Google adsense
 No cookie is set before the user has made choice
 
-# advantages :
+# details :
 
+✅ Lang EN/FR
+✅ Responsive
+✅ GG Analytics
+✅ GG Adsense
+✅ Pause cookies before user made a choice
