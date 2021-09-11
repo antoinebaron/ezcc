@@ -15,7 +15,6 @@ No cookie is set before the user has made choice
 
 *Even though this script is functional (at the time of writing), it is provided "as is" and without warranty of any kind*
 
-demo : https://antoinebaron.io/ezcc-demo/
 
 # Details :
 
@@ -31,6 +30,10 @@ demo : https://antoinebaron.io/ezcc-demo/
 
 ✅ Easy integration 
 
+
+# Demo and screenshots
+
+Demo : https://antoinebaron.io/ezcc-demo/
 
 ![Capture du 2021-04-16 13-29-07](https://user-images.githubusercontent.com/72351273/115018195-de41f380-9eb7-11eb-9122-e2bb3ff5fecf.png)
 
