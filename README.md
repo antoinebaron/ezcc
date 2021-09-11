@@ -1,4 +1,4 @@
-# ezcc : Easy Cookie Consent JS for rgpd compliance
+# EZCC : Easy Cookie Consent JS for rgpd compliance
 
 Ezcc is a script designed to get cookie consent from user on first time visiting the website.
 
@@ -33,11 +33,14 @@ No cookie is set before the user has made choice
 
 # Demo and screenshots
 
+
 Demo : https://antoinebaron.io/ezcc-demo/
+
 
 ![Capture du 2021-04-16 13-29-07](https://user-images.githubusercontent.com/72351273/115018195-de41f380-9eb7-11eb-9122-e2bb3ff5fecf.png)
 
 ![Capture du 2021-04-16 13-29-41](https://user-images.githubusercontent.com/72351273/115018207-e13ce400-9eb7-11eb-98ab-a0aa68dbf9c6.png)
+
 
 
 # Integration :
