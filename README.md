@@ -15,6 +15,18 @@ No cookie is set before the user has made choice
 
 *Even though this script is functional (at the time of writing), it is provided "as is" and without warranty of any kind*
 
+# Demo
+
+Demo : https://antoinebaron.io/dev/ezcc-demo/
+
+
+# Screenshots
+
+![Capture du 2021-04-16 13-29-07](https://user-images.githubusercontent.com/72351273/115018195-de41f380-9eb7-11eb-9122-e2bb3ff5fecf.png)
+
+![Capture du 2021-04-16 13-29-41](https://user-images.githubusercontent.com/72351273/115018207-e13ce400-9eb7-11eb-98ab-a0aa68dbf9c6.png)
+
+
 
 # Details :
 
@@ -29,17 +41,6 @@ No cookie is set before the user has made choice
 ✅ Pause cookies before user made a choice
 
 ✅ Easy integration 
-
-
-# Demo and screenshots
-
-
-Demo : https://antoinebaron.io/dev/ezcc-demo/
-
-
-![Capture du 2021-04-16 13-29-07](https://user-images.githubusercontent.com/72351273/115018195-de41f380-9eb7-11eb-9122-e2bb3ff5fecf.png)
-
-![Capture du 2021-04-16 13-29-41](https://user-images.githubusercontent.com/72351273/115018207-e13ce400-9eb7-11eb-98ab-a0aa68dbf9c6.png)
 
 
 
