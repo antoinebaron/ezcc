@@ -17,7 +17,7 @@ No cookie is set before the user has made choice
 
 # Demo
 
-Demo : https://antoinebaron.io/dev/ezcc-demo/
+Demo : https://antoinebaron.me/dev/ezcc-demo/
 
 
 # Screenshots
